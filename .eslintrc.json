@@ -1,0 +1,12 @@
+
+{
+  "extends": "es/browser",
+  "rules": {
+    "func-style": ["error", "declaration"],
+    "comma-dangle": ["error", "always-multiline"],
+    "@typescript-eslint/semi": ["error", "never"],
+    "@typescript-eslint/explicit-function-return-type": ["error", {
+      "allowExpressions": true
+    }]
+  }
+}
