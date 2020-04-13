@@ -5,6 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "parcel app/html/index.html --open --no-autoinstall",
+    "server": "pipenv run uvicorn cookcook.asgi:application",
     "build": "parcel build app/html/index.html --no-source-maps --out-dir build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
